@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :typographies
   resources :containers
   resources :utilities
   resources :colors
