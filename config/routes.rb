@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :backgrounds
   resources :positions
   resources :sizings
   resources :typographies
