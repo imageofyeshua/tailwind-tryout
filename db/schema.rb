@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_11_02_114045) do
+ActiveRecord::Schema[7.2].define(version: 2024_11_02_115747) do
   create_table "backgrounds", force: :cascade do |t|
     t.string "index"
     t.datetime "created_at", null: false
@@ -30,6 +30,12 @@ ActiveRecord::Schema[7.2].define(version: 2024_11_02_114045) do
   end
 
   create_table "containers", force: :cascade do |t|
+    t.string "index"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "filters", force: :cascade do |t|
     t.string "index"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
