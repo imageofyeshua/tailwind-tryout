@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :interactivities
   resources :filters
   resources :borders
   resources :backgrounds
