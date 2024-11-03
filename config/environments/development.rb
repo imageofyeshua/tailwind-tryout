@@ -8,6 +8,9 @@ Rails.application.configure do
   # since you don't have to restart the web server when you make code changes.
   config.enable_reloading = true
 
+  # enable access from everywhere on the same network
+  config.hosts.clear
+
   # Do not eager load code on boot.
   config.eager_load = false
 
