@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :breakpoints
   resources :interactivities
   resources :filters
   resources :borders
