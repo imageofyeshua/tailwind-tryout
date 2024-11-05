@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :grid
   resources :flex
   resources :columns
   resources :breakpoints
