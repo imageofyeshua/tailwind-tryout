@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :transition
   resources :grid
   resources :flex
   resources :columns
